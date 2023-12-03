@@ -1,0 +1,8 @@
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html#getting-started-quickstart-new-file
+https://towardsaws.com/containerize-node-js-a25b7e9a1e85
+https://www.airplane.dev/blog/kubectl-scale
+
+kubectl apply -f [name].yaml
+kubectl get pods
+kubectl get deployments
+kubectl get services
