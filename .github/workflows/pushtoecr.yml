@@ -68,5 +68,5 @@ jobs:
               --header 'Authorization: Bearer ${{ secrets.TOKEN_ARGO }}' \
               --header 'Content-Type: application/json' \
               --data-raw '{"event_type":"update-image" , "client_payload":{ 
-                  "image":"node_app:${{ github.sha }}"
+                  "image":"test-node-app:${{ github.sha }}"
                 }}' 
