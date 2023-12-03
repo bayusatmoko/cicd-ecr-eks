@@ -63,7 +63,7 @@ jobs:
 
     - name: Commit the image to the gitops repo
       run: | 
-              curl --location --request POST 'https://api.github.com/repos/shivamangina/node-git-ops/dispatches' \
+              curl --location --request POST 'https://api.github.com/repos/bayusatmoko/node-git-ops/dispatches' \
               --header 'A: application/vnd.github.v3+json' \
               --header 'Authorization: Bearer ${{ secrets.TOKEN_ARGO }}' \
               --header 'Content-Type: application/json' \
