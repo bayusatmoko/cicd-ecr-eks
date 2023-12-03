@@ -19,6 +19,6 @@ USER node
 COPY --chown=node:node . /app
 RUN npm ci --only=production && npm cache clean --force
 EXPOSE 8000
-CMD ["node", "entrypoint.js"]
+CMD ["node", "index.js"]
 
 
